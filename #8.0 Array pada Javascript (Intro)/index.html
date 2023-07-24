@@ -1,0 +1,77 @@
+<!-- 
+	8. ARRAY
+
+		Tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai atau variabel), yang tiap - tiap elemennya memiliki index.
+
+		Sederhananya :
+
+		Array adalah variabel yang lebih sakti (karena bisa menampung lebih dari satu nilai)
+
+		Cara penulisan :
+
+			var hari = ['Senin', 'Selasa', 'Rabu'];
+
+		Kenapa Array :
+			- Mempermudah pengelolaan nilai / value / data
+				- Penelusuran dan Pencarian
+			- Manajemen memori
+
+		Array :
+			- Variabel jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama
+			- Kumpulan pasangan key dan nilai / key and value pair
+			- Key adalah index pada array dengan tipe integer yang dimulai dari 0
+			- Array pada javascript bertipe object
+			- Array pada javascript memiliki fungsi / method length untuk menghitung jumlah elemen di dalamnya
+			- Elemen pada array boleh memiliki tipe data yang berbeda
+
+		Key and Value pair (Membuat Array)
+
+			var binatang = ['Kucing', 'Kelinci', 'Monyet', 'Panda', 'Koala', 'Sapi'];
+
+			atau
+
+			var binatang = [];
+			binatang = ['Kucing', 'Kelinci', 'Monyet', 'Panda', 'Koala', 'Sapi'];
+
+		Key and Value pair (Mengakses elemen pada array)
+
+			var binatang = [];
+			binatang = ['Kucing', 'Kelinci', 'Monyet', 'Panda', 'Koala', 'Sapi'];
+
+			console.log(binatang[4]);
+
+			maka hasilnya akan keluar Koala
+
+		Array Bertipe Object
+
+			var binatang = [];
+			binatang = ['Kucing', 'Kelinci', 'Monyet', 'Panda', 'Koala', 'Sapi'];
+
+			console.log(typeof(binatang));
+
+			maka hasilnya akan keluar Object
+
+		Array Bertipe Object (Memiliki method length)
+
+			var binatang = [];
+			binatang = ['Kucing', 'Kelinci', 'Monyet', 'Panda', 'Koala', 'Sapi'];
+
+			console.log(binatang.length);
+
+			maka hasilnya akan keluar 6
+
+		Elemen pada array boleh beda tipe
+
+			var myArr = ['teks', 2, false];
+				var myFunc = function() {
+					alert('Hello World!');
+				};
+			var myArr2 = ['teks', 2, false, myFunc];
+			var myArr3 = ['teks', 2, false, myFunc, [4, 5, 6]];
+			
+			# menampilkan angka 5 ke console dari myArr3 :
+				
+				console.log(myArr3[4][1]);
+
+				maka hasilnya adalah 5
+ -->

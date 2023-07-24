@@ -1,0 +1,95 @@
+<!-- 
+	7. FUNCTION
+	
+	Menurut Douglas Crockford
+	"function adalah kunci utama pada javascript, yang membuat javascript sangat powerfull."
+
+	Method			-|
+	Class			 |---- Function (di javascript)
+	Constructor		 |
+	Module			-|
+
+	- Definisi Function :
+		- Sebuah sub program / sub routine yang dapat dipanggi; di bagian lain pada program
+		- Merupakan struktur dasar pembentuk dari javascript 
+		- Disebut juga sebagai prosedur (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai)
+		- Untuk dapat menggunakannya, kita harus membuat terlebih dahulu function tersebut, lalu memanggilnya
+		- Termasuk kedalam First-Class Object
+
+	- Kenapa function ?
+		- Reusability (DRY : Do not Repeat Yourself)
+		- Dekomposisi / Abstraksi
+		- Modularitas
+
+	- Kategori function
+		- Built-in Function
+		- User-Defined Function
+
+	- Built-in Function
+		- Fungsi yang sudah disediakan oleh javascript
+		- Kita tinggal memanggilnya saja
+		- Contoh :
+			- alert();
+			- confirm();
+			- prompt();
+		- dan masih banyak lainnya
+
+		Built-in function : String
+		- charAt(), slice(), split(), toString(), toLowerCase(), toUpperCase(), ...
+		- https://www.w3schools.com/jsref/jsref_obj_string.asp
+
+		Built-in function : Math
+		- sin(), cos(), tan(), random(), round(), floor(), ceil(), log(), ...
+		- https://www.w3schools.com/jsref/jsref_obj_math.asp
+
+	- User-defined function
+		- Fungsi yang kita buat sendiri
+		- Menggunakan keyword function
+		- Nama function (optional)
+		- Parameter / Argument
+			- disimpan di dalam ()
+			- boleh ada atau tidak, jika ada boleh lebih dari satu
+			- dipisahkan oleh koma (,)
+		- Function body, dibungkus dengan {}
+		- Dapat mengembalikan nilai (return value) atau tidak
+
+		Membuat user-defined function
+		- Dengan deklarasi / function declaration
+		- Dengan ekspresi / function expression
+
+		> Function declaration :
+		
+			function jumlahDuaBilangan(a, b) {
+				var total;
+				total = a + b;
+
+				return total;
+			}
+
+		> Function expression :
+
+			var jumlahDuaBilangan = function(a, b) {
+				var total;
+				total = a + b;
+
+				return total;
+			}
+
+		Struktur function :
+			
+			keyword		nama function (a, b)parameter
+				|				|		|
+			function jumlahDuaBilangan(a, b) {
+				var total;							-|
+				total = a + b;						 |----- function body
+													-|
+				return total;	--------------------------- nilai kembalian
+			}
+
+		Memanggil / menjalankan function
+		Contoh :
+
+			alert(jumlahDuaBilangan(1,2));
+			alert(jumlahDuaBilangan(25,30));
+			alert(jumlahDuaBilangan(1500,17.5));
+ -->

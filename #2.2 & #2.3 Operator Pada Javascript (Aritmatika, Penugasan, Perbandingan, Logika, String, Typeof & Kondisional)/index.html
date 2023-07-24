@@ -1,0 +1,109 @@
+<!-- 
+	2.2 OPERATOR
+		adalah sebuah simbol yang digunakan untuk melakukan operasi.
+
+		Macam Operator :
+			aritmatika		-|
+			penugasan		 |
+			perbandingan	 |-- binary
+			logika			 |
+			string			-|
+			kondisional ------- ternary
+			typeof ------------ unary
+
+		> binary adalah operator yang membutuhkan 2 operand (angka)
+			Contoh : operand1 operator operand2
+		> unary adalah operator yang hanya membutuhkan 1 operand
+			Contoh : operator operand
+					 atau
+					 operand operator
+		> ternary adalah operator yang membutuhkan 3 operand
+
+		1. OPERATOR ARITMATIKA
+			+, -, *, /, % (modulus/sisa bagi)
+			
+			Operator precedence (Urutan operasi matematika)
+				- KuKaBaTaKu (), *, /, +, -
+
+		2. OPERATOR PENUGASAN (assignment)
+			=, +=, -=, *=, /=, %=
+
+			Contoh : 	var x;
+						x = 10;
+						x += 5;
+
+						hasilnya 15
+
+			operator penugasan 	| sama saja dengan
+			--------------------|------------------
+			x += y 				| x = x + y
+			x -= y 				| x = x - y
+			x *= y 				| x = x * y
+			x /= y 				| x = x / y
+			x %= y 				| x = x % y
+			--------------------|-----------------
+
+		3. OPERATOR PERBANDINGAN (comparison)
+			Tabel perbandingan
+
+			operator perbandingan 	| keterangan
+			------------------------|----------------------------
+						==			| sama dengan
+						!=			| tidak sama dengan
+						===			| strict sama dengan
+						!==			| strict tidak sama dengan
+						> 			| lebih besar dari
+						< 			| lebih kecil dari
+						>= 			| lebih besar sama dengan
+						<=			| lebih kecil sama dengan
+			------------------------|----------------------------
+
+			- operator perbandingan ini akan menghasilkan BOOLEAN (true / false)
+				Contoh : 10 == 10
+						 true
+
+						 10 == 15
+						 false
+						 
+						 10 != 10
+						 false
+
+						 10 == "10"
+						 true			karena == hanya membadingkan angkanya saja walaupun angka tersebut dalam string
+
+						 10 === "10"
+						 false			karena === membandingkan angka beserta tipe datanya
+
+		4. OPERATOR LOGIKA (logical)
+			&& (AND), || (OR), ! (NOT)
+
+		5. OPERATOR STRING
+			+ (penggabung string)
+
+			Contoh : var a,b;
+					 a = "Apple";
+					 b = "Pen";
+
+					 a + " " + b
+					 hasilnya apple pen
+
+		6. OPERATOR TYPEOF
+			typeof(operand)
+
+			Contoh : typeof(10)
+					 hasilnya "number"
+
+					 typeof("10")
+					 hasilnya "string"
+
+					 typeof(true)
+					 hasilnya "boolean"
+
+		7. OPERATOR KONDISIONAL
+			(kondisi) ? benar : salah
+
+			Contoh : var x;
+					 x = 5;
+					 (x % 2 == 0) ? "genap" : "ganjil";
+					 hasilnya "ganjil"
+ -->	

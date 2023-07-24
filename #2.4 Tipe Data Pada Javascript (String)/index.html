@@ -1,0 +1,65 @@
+<!-- 
+	2.4 STRING
+		digunakan untuk merepresentasikan data tekstual ata sering di sebut plain text
+		
+		pada javascript :
+
+		" " atau ' ' sama saja
+		
+		ESCAPE CHARACTER
+		\"
+		
+		atau
+
+		\'
+
+		Contoh kasus : '"Gerakan Pungut Sampah"
+						dilaksanakan pada hari jum'at'
+
+						error karena terdapat ' di dalam ' '
+
+		Penyelesaian dengan Escape Character :
+		'"Gerakan Pungut Sampah"
+		dilaksanakan pada hari jum\'at'
+
+		escape character | hasil		
+		-----------------|------------------------
+		\0 				 | karakter NULL
+		\' 				 | '
+		\" 				 | "
+		\\				 | \
+		\n 				 | new line / baris baru
+		\t 				 | tab
+		\b 				 | backspace
+		\uXXXX 			 | unicode
+		------------------------------------------
+
+		unicode		| hasil
+		------------|----------
+		\u00A9 		| copyright
+		\u00AE 		| ...
+		\u00B1 		| ...
+		\u00B5 		| ...
+		\u2122 		| Trademark
+		...			| ...
+		-----------------------
+
+
+		CONCATENATION / konkatenasi
+		+
+	
+		PERBANDINGAN string
+		Contoh : "Sandhika Galih" == "sandhika galih"
+				 Hasilnya : False
+
+				 karena huruf kecil dan besar beda di javascript
+		
+
+
+		.length
+		menghitung panjang string
+		Contoh : "Shandika Galih".length
+				 Hasilnya : 14
+
+				 juga menghitung karakter spasi
+ -->
